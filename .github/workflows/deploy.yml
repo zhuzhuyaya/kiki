@@ -25,6 +25,9 @@ jobs:
           node-version: 22
           cache: npm
       - uses: actions/configure-pages@v4
+        with:
+          # 自动打开仓库的 Pages 开关，不用去 Settings 里手动设置
+          enablement: true
       - run: npm ci
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
