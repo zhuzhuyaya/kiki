@@ -33,8 +33,3 @@ git push               # 推到 GitHub，约 1 分钟后网站自动更新
 | --- | --- |
 | git restore 文件名 | 丢弃某个文件还没提交的改动 |
 | git commit --amend | 补充修改上一次的提交说明 |
-
-## 小结
-
-- 改完就是 add → commit → push 三连
-- 拿不准状态的时候，先 `git status` 看一眼再动手
