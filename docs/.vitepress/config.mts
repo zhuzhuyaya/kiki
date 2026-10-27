@@ -7,6 +7,8 @@ export default defineConfig({
   description: '记录、整理、学习',
   // 部署在 zhuzhuyaya.github.io/kiki/，必须带这个前缀，资源才能正常加载
   base: '/kiki/',
+  // TEMPLATE.md 只是复制用的笔记底稿，不发布到网站上
+  srcExclude: ['**/TEMPLATE.md'],
   head: [['link', { rel: 'icon', type: 'image/svg+xml', href: '/kiki/favicon.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -35,7 +37,7 @@ export default defineConfig({
         text: 'Git',
         collapsed: true,
         items: [
-          { text: 'Git 常用命令', link: '/api-examples' }
+          { text: 'Git 常用命令', link: '/notes/git/git-commands' }
         ]
       }
     ],
