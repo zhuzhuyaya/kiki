@@ -30,6 +30,13 @@ export default defineConfig({
         items: [
           { text: 'API 示例', link: '/api-examples' }
         ]
+      },
+      {
+        text: 'Git',
+        collapsed: true,
+        items: [
+          { text: 'Git 常用命令', link: '/api-examples' }
+        ]
       }
     ],
 
