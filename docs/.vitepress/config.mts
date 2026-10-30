@@ -34,10 +34,49 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Linux',
+        collapsed: true,
+        items: [
+          { text: '环境总览', link: '/notes/linux/' },
+          { text: 'WSL 系统管理', link: '/notes/linux/wsl' },
+          { text: '用户与密码', link: '/notes/linux/linux-users' },
+          { text: 'Docker 安装与镜像加速', link: '/notes/linux/docker-install' },
+          { text: 'Docker 日常命令', link: '/notes/linux/docker-commands' },
+          { text: 'Docker Compose', link: '/notes/linux/docker-compose' },
+          { text: 'MySQL 部署与使用', link: '/notes/linux/mysql' }
+        ]
+      },
+      {
         text: 'Git',
         collapsed: true,
         items: [
           { text: 'Git 常用命令', link: '/notes/git/git-commands' }
+        ]
+      },
+      {
+        text: '拾遗',
+        collapsed: true,
+        items: [
+          { text: '前言', link: '/notes/leave_behind/sy_1' },
+          { text: '数据库设计', link: '/notes/leave_behind/sy_2' },
+          { text: '统一响应', link: '/notes/leave_behind/sy_3' },
+          { text: '业务异常', link: '/notes/leave_behind/sy_4' },
+          { text: '全局异常处理器', link: '/notes/leave_behind/sy_5' },
+          { text: 'Docker 部署中间件', link: '/notes/leave_behind/sy_6' },
+          { text: 'MyBatis-Plus 接入', link: '/notes/leave_behind/sy_7' },
+          { text: '注册登录与鉴权', link: '/notes/leave_behind/sy_8' },
+          { text: '工程骨架与包结构', link: '/notes/leave_behind/sy_11' },
+          { text: '事务与传承人入驻', link: '/notes/leave_behind/sy_12' },
+          { text: '属主校验与越权防护', link: '/notes/leave_behind/sy_13' },
+          { text: 'MinIO 对象存储', link: '/notes/leave_behind/sy_14' }
+        ]
+      },
+      {
+        text: '拾遗·排错',
+        collapsed: true,
+        items: [
+          { text: 'Boot4 降级复盘', link: '/notes/leave_behind/sy_9' },
+          { text: '常见报错速查', link: '/notes/leave_behind/sy_10' }
         ]
       }
     ],

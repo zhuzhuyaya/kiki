@@ -6,9 +6,6 @@ hero:
   name: "栀总"
   text: "记录、整理、学习"
   tagline: 不断学习、不断经历、不断的进步
-  image:
-    src: /i1.jpg
-    alt: 栀总
   actions:
     - theme: brand
       text: 开始阅读
